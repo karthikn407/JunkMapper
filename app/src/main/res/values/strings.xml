@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">KJK</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
+    <string name="prompt_email">Enter your Email</string>
+    <string name="prompt_password">Enter your Password</string>
     <string name="action_sign_in">Sign in </string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
@@ -19,4 +19,10 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_capture_screen">CaptureScreenActivity</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="user_login">USER Login</string>
+    <string name="bin">BIN</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
