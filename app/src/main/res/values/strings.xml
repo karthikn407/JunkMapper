@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KJK</string>
+    <string name="app_name">Junk Mapper</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Enter your Email</string>
     <string name="prompt_password">Enter your Password</string>
@@ -25,4 +25,29 @@
     <string name="user_login">USER Login</string>
     <string name="bin">BIN</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="click_to_capture_waste">Click to capture WASTE</string>
+    <string name="predicted_class">Predicted class:</string>
+    <string name="todo">TODO</string>
+    <string name="get_directions">Get Direction</string>
+    <string name="nearby_recyclebin">Nearby Bin</string>
+    <string name="recycling_game_image_content_description">Game Description</string>
+    <string name="recycling_game_check_button_text">Check Button</string>
+    <string name="recycling_game_submit_button_text">Submit</string>
+    <string name="recycling_game_score_text">Score</string>
+    <string name="recycling_game_timer_text">Timer</string>
+    <string name="recycling_game_instruction">Instructions</string>
+    <string name="play_again_button_description">Play Again</string>
+    <string name="find_the_object">Find the object</string>
+    <string name="score_0">Score: 0</string>
+    <string name="submit">Submit</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="articles">Articles</string>
+    <string name="logout">Logout</string>
+    <string name="score">Score</string>
+    <string name="nav_logout">logout</string>
+    <string name="share">Share</string>
+    <string name="welcome_to_junk_mapper">Welcome To JunkMapper</string>
+    <string name="start_game">Start Game</string>
+
 </resources>

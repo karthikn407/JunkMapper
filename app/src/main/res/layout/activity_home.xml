@@ -4,19 +4,30 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/welcome_text"
+        android:id="@+id/welcome_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Home Screen!"
+        android:text="@string/welcome_to_junk_mapper"
         android:textSize="24sp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:id="@+id/junk_mapper_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/junk_mapper"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp" />
 
     <Button
         android:id="@+id/welcome_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/welcome_text"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
         android:text="Get Started" />
 
 </RelativeLayout>

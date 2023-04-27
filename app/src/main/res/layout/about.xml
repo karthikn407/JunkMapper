@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Recycling App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app helps you recycle effectively and learn more about the environment. Here are some of the features:"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/object_identification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Object Identification: Take a picture of an item and the app will tell you if it's recyclable or not."
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/recycling_guidelines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Recycling Guidelines: Learn how to recycle different materials and reduce your environmental impact."
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/nearby_recycling_area_finder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Nearby Recycling Area Finder: Find recycling centers near you and get directions to them."
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/articles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Articles: Read about the latest news and trends in recycling and sustainability."
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/social_media_sharing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Sharing Achievements on Social Media: Share your recycling achievements with your friends and inspire them to recycle more."
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/waste_disposal_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Fun Waste Disposal Game: Play a game to learn how to dispose of waste properly"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp" />
+
+</LinearLayout>

@@ -2,13 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_img"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.KJK"
@@ -30,7 +31,7 @@
             android:value="YOUR_API_KEY" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".MapActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
@@ -43,14 +44,36 @@
             android:name=".SignupActivity"
             android:exported="true" />
         <activity
+            android:name=".DirectionActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.login.LoginActivity"
             android:exported="true"
-            android:label="@string/app_name">
+            android:label="Junk Mapper">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".RecyclingGameActivity"
+            android:exported="true"
+            android:label="KJK">
+        </activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:exported="true"
+            android:label="KJK">
+        </activity>
+        <activity android:name=".ArticleActivity"
+            android:exported="true"
+            android:label="KJK">
+
+        </activity>
+        <activity android:name=".AboutActivity"
+            android:label="KJK"
+            android:exported="true">
+
         </activity>
     </application>
 
